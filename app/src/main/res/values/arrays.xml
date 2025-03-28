@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="prod_array">
+        <item>Молоко, сыр, яйца</item>
+        <item>Овощи и фрукты</item>
+        <item>Мясо и колбаса</item>
+        <item>Хлеб и выпечка</item>
+        <item>Рыба</item>
+        <item>Бакалея</item>
+
+    </string-array>
+    <string-array name="prod_spinner">
+        <item>Выберете нужную категорию</item>
+        <item>Молоко, сыр, яйца</item>
+        <item>Овощи и фрукты</item>
+        <item>Мясо и колбаса</item>
+        <item>Хлеб и выпечка</item>
+        <item>Рыба</item>
+        <item>Бакалея</item>
+
+    </string-array>
+
+</resources>

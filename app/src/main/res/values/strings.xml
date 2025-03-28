@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">MaryShop</string>
+    <string name="main">Главная</string>
+    <string name="search">Каталог</string>
+    <string name="basket">Корзина</string>
+    <string name="profile">Профиль</string>
+    <string name="settings">Настройки</string>
+    <string name="enter">Вход</string>
+    <string name="reg">Регистрация</string>
+    <string name="store">Склад</string>
+    <string name="strreg1">Для регистрации внесите необходимую информацию</string>
+    <string name="strreg2">Имя(логин)</string>
+    <string name="strreg3">Телефон</string>
+    <string name="strreg4">email</string>
+    <string name="strreg5">Адрес</string>
+    <string name="strreg6">Пароль</string>
+    <string name="strreg_btn">Зарегистрироваться</string>
+    <string name="strenter1">Для входа введите логин и пароль</string>
+    <string name="strenter2">Войти</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="nomination">наименование</string>
+    <string name="category">категория</string>
+    <string name="price">цена</string>
+    <string name="photo">фото</string>
+    <string name="balance">количество</string>
+    <string name="add">Добавить</string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+    <string name="title_activity_milk">MilkActivity</string>
+    <string name="btn_add_to_basket">в корзину</string>
+    <string name="btn_minus">-</string>
+    <string name="btn_plus">+</string>
+    <string name="action_settings">Settings</string>
+    <string name="large_text">"Material is the metaphor.\n\n" </string>
+    <string name="btn_buy">купить</string>
+    <string name="check_add_basket">добавить в корзину</string>
+    <string name="sum_view">Сумма покупки: %d</string>
+    <string name="btn_dialog">выход</string>
+    <string name="btn_sum">оформить</string>
+    <string name="title_hello">Добро пожаловать, Админ!</string>
+    <string name="hello_view">Добро пожаловать,</string>
+
+</resources>

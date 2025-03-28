@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    android:textColor="@color/black"
+    tools:context=".AddProductBaseActivity">
+
+    <TextView
+        android:id="@+id/title_nomination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/nomination"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+    <EditText
+        android:id="@+id/nomination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:inputType="text"
+        android:height="35dp"
+        android:width="300dp"
+        android:background="@color/white"
+        />
+    <TextView
+        android:id="@+id/title_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/category"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+    <Spinner
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:background="@color/white"
+        android:entries="@array/prod_spinner"
+        />
+    <TextView
+        android:id="@+id/title_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/price"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:inputType="numberDecimal"
+        android:height="35dp"
+        android:width="150dp"
+        android:background="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/title_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/balance"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+    <EditText
+        android:id="@+id/balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:inputType="number"
+        android:height="35dp"
+        android:width="80dp"
+        android:background="@color/white"
+        />
+    <TextView
+        android:id="@+id/title_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/photo"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/white"
+        android:onClick="onClick"
+        android:src="@drawable/product_pic" />
+
+
+
+    <Button
+        android:id="@+id/btn_add_product"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_view"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/black"
+        android:onClick="onClick"
+        android:text="@string/add"
+        />
+
+
+
+
+
+
+</LinearLayout>
+

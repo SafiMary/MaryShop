@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:id="@+id/idTopLayout">
+
+        <Button
+            android:id="@+id/btn_minus"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/btn_view"
+            android:textColor="@color/black"
+            android:text="@string/btn_minus"
+            android:focusable="true" />
+        <TextView
+            android:id="@+id/amount_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textSize="20dp"
+            android:text="1"
+            tools:textColor="@android:color/black"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn_plus"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/btn_view"
+            android:textColor="@color/black"
+            android:text="@string/btn_plus"
+            android:focusable="true"/>
+        <Button
+            android:id="@+id/btn_dialog"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/btn_view"
+            android:textColor="@color/black"
+            android:text="выход"
+            android:focusable="true"/>
+    </LinearLayout>
+
+        </LinearLayout>
+
+
